@@ -13,11 +13,11 @@ Visita la página oficial de [Git](https://git-scm.com/downloads)  para descarga
 
 Lee la Licencia Pública General GNU y haz clic en Siguiente.
 
-<img src="https://kinsta.com/wp-content/uploads/2023/04/gnu-license.png" alt="Descripción de la imagen" width="40%" height="40%">
+<img src="https://kinsta.com/wp-content/uploads/2023/04/gnu-license.png" alt="Descripción de la imagen" width="70%" height="70%">
 
 * El instalador te pedirá una ubicación para la instalación. Mantén la predeterminada a menos que necesites cambiarla, y haz clic en Siguiente.
 
-<img src="https://kinsta.com/wp-content/uploads/2023/04/destination-location.png" alt="Descripción de la imagen" width="40%" height="40%">
+<img src="https://kinsta.com/wp-content/uploads/2023/04/destination-location.png" alt="Descripción de la imagen" width="70%" height="70%">
 
 * Aparecerá una pantalla de selección de componentes. Mantén la configuración por defecto a menos que necesites modificarla, y haz clic en Siguiente.
 
@@ -25,7 +25,7 @@ Lee la Licencia Pública General GNU y haz clic en Siguiente.
 
 * Elige un editor de texto para utilizar con Git. Haz clic en el menú desplegable para elegir el editor de texto que quieras utilizar, como Vim, Notepad++, etc. y haz clic en Siguiente.
 
-<img src="https://kinsta.com/wp-content/uploads/2023/04/git-default-editor.png" alt="Descripción de la imagen" width="40%" height="40%">
+<img src="https://kinsta.com/wp-content/uploads/2023/04/git-default-editor.png" alt="Descripción de la imagen" width="70%" height="70%">
 
 * En este siguiente paso, puedes optar por renombrar tu rama inicial. Por defecto es master. Deja el predeterminado (a menos que realmente quieras cambiarlo) y haz clic en Siguiente.
 
