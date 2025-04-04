@@ -110,9 +110,9 @@ Guarda los cambios y espera la propagación del DNS (puede tardar algunas horas)
 
 Si tienes duda sobre los pasos te dejo a conticuación videos de apoyo para la configuración.
 
-**[Compra del Domino](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Compra del Domino]([https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md](https://www.youtube.com/watch?v=fjdeTokWtOM&list=PL-aSvPEYgSGij1bg9HvlLZAJahMNGunX7&index=1))**
 
-**[Configuracion de DNS](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Configuracion de DNS](https://www.youtube.com/watch?v=CYexE75Tzaw&list=PL-aSvPEYgSGij1bg9HvlLZAJahMNGunX7&index=3)**
 
 ## **instalacion de Hestia Control Panel**
 
