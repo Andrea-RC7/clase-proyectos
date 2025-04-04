@@ -13,37 +13,37 @@ En esta parte se crearon 6 códigos donde se utiliza como método de comunicaci�
 
 El ESP32 cuenta con Bluetooth integrado, que nos permite establecer de forma sencilla una comunicación inalámbrica con otros dispositivos, el ejemplo **tal** crea un puente entre el Bluetooth serie y el Bluetooth clásico (SPP) con la cual permitirá enviar y recibir datos desde un dispositivo Bluetooth emparejado, facilitando la interacción con cualquier dispositivo compatible con Bluetooth SPP.
 
-**[Código BT1](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código BT1](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Bluetooth/BT1.ino)**
 
 **BT2 - Control de LED**
 
 En esta actividad se vuelve hacer uso de bluetooth serial pero esta vez para controlar un led de la ESP32 el cual es un pin ya asignado para poder controlar el led, el dispositivo que esta conectado mediante bluetooth enviara un 1 para encender el led y un 0 para apagarlo.
 
-**[Código BT2](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código BT2](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Bluetooth/BT2.ino)**
 
 **BT3 - Configuración Básica de Bluetooth**
 
 Este proyecto muestra la manera de como inicializar bluetooth con ESP32 para hacer que el dispositivo sea detectable por otros y pueda aceptar conexiones.
 
-**[Código BT3](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código BT3](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Bluetooth/BT3.ino)**
 
 **BT4 - Control de leds**
 
 Así como el proyecto BT2 se controla un led aquí se controlara el encendido y apagado con dos leds, los cuales estarán conectados a dos pines de cada led y al conectarse la ESP32 con un dispositivo este podrá controlar mediante 4 caracteres "1" enciende el led 1 y "2" apaga el led 1, para "3" enciende el led 2 y "4" apagara el led 2.
 
-**[Código BT4](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código BT4](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Bluetooth/BT4.ino)**
 
 **BT5 - Control de LED mediante Mensajes de Texto**
 
 A diferencia de los demás proyectos donde usábamos solamente "1" , "2" o algún otro este no solo ocupara un solo numero sino una cadena de caracteres como un texto para encender y apagar un led, el dispositivo tendrá que enviar el texto "led_on" para encender el led, y "led_off" para apagarlo.
 
-**[Código BT5](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código BT5](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Bluetooth/BT5.ino)**
 
 **BT6 - Control de LED con letras**
 
 Este proyecto encenderá y apagara un led conectado a la ESP32 mediante comandos enviados por bluetooth mediante las letras de A y B, cuando el dispositivo conectado mande una 'A' se encenderá y cuando mande una 'B' se apagara.
 
-**[Código BT6](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código BT6](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Bluetooth/BT6.ino)**
  
 ## ESP32 y Deep Sleep
 
@@ -77,9 +77,9 @@ El modo de deep sleep es especialmente útil en aplicaciones alimentadas por bat
 
 >[!NOTE]
 >
->En **[Información adicional](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)** encontraras información de apoyo si quieres seguir aprendiendo sobre el tema.
+>En **[Información adicional](https://github.com/Andrea-RC7/clase-proyectos/blob/main/informacion-adicional/README.md)** encontraras información de apoyo si quieres seguir aprendiendo sobre el tema.
 
-**[Código de Deep Sleep](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código de Deep Sleep](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/Depp-Sleep/TimerWakeUp_Dormir.ino)**
 
 ## ESP-NOW 
 
@@ -102,14 +102,14 @@ Este tipo de comunicación se compone de uno o varios dispositivos ESP que funci
 
 **Códigos Para Probar ESP-NOW**
 
-**[Conocer la dirección MAC](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
-**[Código de maestro](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
-**[Código de esclavo](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Conocer la dirección MAC](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/ESP-NOW/ESP_Direcciones_Mac.ino)**
+**[Código de maestro](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/ESP-NOW/Maestro_EspNow.ino)**
+**[Código de esclavo](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/ESP-NOW/Esclavo_EspNow.ino)**
 
 
 >[!NOTE]
 >
->En **[Información adicional](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)** encontraras información de apoyo, paginas y links donde podras encontrar mas información y códigos alternos para probar el funcionamiento de ESP-NOW.
+>En **[Información adicional](https://github.com/Andrea-RC7/clase-proyectos/blob/main/informacion-adicional/README.md)** encontraras información de apoyo, paginas y links donde podras encontrar mas información y códigos alternos para probar el funcionamiento de ESP-NOW.
 
 
 ## WIFI y ESP32
@@ -130,11 +130,11 @@ Muestra información detallada de la conexión, como:
 
  * Dirección del DNS.
 
-**[Código WIFI_1](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código WIFI_1](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/WiFi/WiFi_1.ino)**
 
 ## ESP32, WIFI y servidor Web
 
 Este programa crea un servidor web local en una ESP32. Desde una página web accesible por la red WiFi, el usuario puede encender o apagar un LED usando dos botones, desde cualquier dispositivo conectado a la misma red WiFi simplemente ingresando la IP en un navegador y usando los botones de la página. El código creara una IP que se enviara por el monitor serial para acceder al servidor.
 
-**[Código WIFI_2](https://github.com/Akeno075/Proyectos-Clases/blob/main/Oracle%20Cloud/README.md)**
+**[Código WIFI_2](https://github.com/Andrea-RC7/clase-proyectos/blob/main/ESP32/WiFi/WiFi_2.ino)**
 
